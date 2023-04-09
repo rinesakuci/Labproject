@@ -103,12 +103,24 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  
-</footer> 
+=
         
         
-        
+        <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="social-icons">
+          <a href="https://www.facebook.com">Facebook<i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com">Twitter<i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com">Instagram<i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; Rrjetet tona sociale.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
         
         
         
