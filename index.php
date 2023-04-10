@@ -14,6 +14,22 @@
 
 
     </head>
+        <body>
+            <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.php" class="w3-bar-item w3-button">Mrizi</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.php" class="w3-bar-item w3-button">Rreth Nesh</a>
+      <a href="menu.php" class="w3-bar-item w3-button">Menu</a>
+          <a href="portfolio.php" class="w3-bar-item w3-button">Portfolio</a>
+          <a href="registeer.php" class="w3-bar-item w3-button">Rezervo</a>
+          <a href="Lokacioni.php" class="w3-bar-item w3-button">Lokacioni</a>
+
+    </div>
+  </div>
+</div>
         <div class="w3-container">
   <h2>Slideshow Caption</h2>
 
