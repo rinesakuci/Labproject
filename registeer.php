@@ -65,6 +65,9 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
                 font-family: "Playfair Display";
                 letter-spacing: 5px;
             }
+            .w3-bar {
+  height: 61px;
+}
         </style>
     </head>
 <body>
