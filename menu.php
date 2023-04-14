@@ -36,7 +36,7 @@ header {
 
 }
 .w3-bar {
-  height: 61px;
+  height: 59px;
 }
 
 h1 {
