@@ -21,9 +21,11 @@
         letter-spacing: 8px;
       }
       .w3-bar {
-  height: 65px;
+  height: 61px;
 }
-
+.w3-bar-item {
+    font-size: 16px;
+  }
 
 
       .button {
@@ -67,12 +69,6 @@
     </div>
   
     
-    <div class="w3-container">
-  <h2>Slideshow Caption</h2>
-  
-</div>
-
-
 
 
 
