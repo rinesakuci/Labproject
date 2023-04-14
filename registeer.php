@@ -68,6 +68,9 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
             .w3-bar {
   height: 61px;
 }
+.w3-bar-item {
+    font-size: 15px;
+  }
         </style>
     </head>
 <body>
@@ -82,7 +85,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
                 <a href="menu.php" class="w3-bar-item w3-button">Menu</a>
                 <a href="Portfolio.php" class="w3-bar-item w3-button">Portfolio</a>
                 <a href="registeer.php" class="w3-bar-item w3-button">Rezervimet</a>
-               
+                <a href="lokacioni.php" class="w3-bar-item w3-button">Lokacioni</a>
                 
 									
                
