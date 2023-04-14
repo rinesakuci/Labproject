@@ -40,7 +40,7 @@
     font-size: 15px;
   }
   .w3-bar {
-  height: 63px;
+  height: 67px;
 }
 
 

@@ -24,7 +24,7 @@
   height: 61px;
 }
 .w3-bar-item {
-    font-size: 16px;
+    font-size: 15px;
   }
 
 

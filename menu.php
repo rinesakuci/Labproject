@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-include "newdb.php";
+include "menagdb.php";
 
 // $sql = "SELECT * FROM menu";
 // $stmt = $pdo->prepare($sql);
@@ -43,9 +43,11 @@ header {
 
 }
 .w3-bar {
-  height: 59px;
+  height: 57px;
 }
-
+.w3-bar-item {
+    font-size: 15px;
+  }
 h1 {
 	margin: 0;
 }
