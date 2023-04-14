@@ -3,8 +3,8 @@
 Ky është një sistem i bazuar në web për menaxhimin e operacioneve të restoranteve dhe rezervimet e klienteve.
  ## Teknologjite
 
- - Front-end : HTML , CSS , JavaScript **Client Side**
- - Back-end : Mysql , PHP(PDO) **Server Side**
+ - Front-end : HTML , CSS , JavaScript <br> **Client Side**
+ - Back-end : Mysql , PHP(PDO) <br> **Server Side**
 
 
 ### Linqet perkatese
