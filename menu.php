@@ -35,6 +35,9 @@ header {
     background-image: url("mi.jpg");
 
 }
+.w3-bar {
+  height: 61px;
+}
 
 h1 {
 	margin: 0;
