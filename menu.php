@@ -1,5 +1,12 @@
 
+<?php
+session_start();
+include "newdb.php";
 
+// $sql = "SELECT * FROM menu";
+// $stmt = $pdo->prepare($sql);
+// $result = $pdo->query($sql);
+?>
 
 <!DOCTYPE html>
 
