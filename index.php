@@ -9,6 +9,8 @@
     <style>
       .mySlides {display:none;}
       body {
+       margin:0;
+       padding:0;
         font-family: "Times New Roman", Georgia, Serif;
       }
       h1,
@@ -37,9 +39,101 @@
         border-radius: 5px;
         text-decoration: none;
       }
- 
-   
-      
+
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2.5;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+li {
+  display: inline;
+  margin: 0 20px;
+}
+
+
+
+
+footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px; /* set a height for the footer */
+}
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 40%;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 40px;
+  color: #1e1e1e;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.fa {
+  font-size: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.social-icons a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
     </style>
 
   </head>
@@ -73,7 +167,7 @@
 
 
     <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:600px" id="home">
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:1300px" id="home">
     <video autoplay loop muted plays-inline type="video/mp4">
     <source src ="video.mp4">
         </video>
@@ -109,46 +203,45 @@
             </div>
         </div>
 
-        <hr><br><br><br><br>
-
-        <!-- Menu Section -->
-        <div class="w3-row w3-padding-64" id="menu">
-            <div class="w3-col l6 w3-padding-large" style="margin-left: 38px;">
-                <h1 class="w3-center">Orari yne</h1><br>
-              
-                <h4 style="letter-spacing: 5px;">Dreka: 12:00 – 14:15</h4>
-                <p class="w3-text-grey" style="letter-spacing: 5px;"></p><br>
-
-                <h4 style="letter-spacing: 5px;">Cena: 19:00 – 22:15</h4>
-                <p class="w3-text-grey" style="letter-spacing: 5px;"></p><br>
-
-                <h4 style="letter-spacing: 5px;">+39.051.230644
-+39.327.4271489
-</h4>
-                <p class="w3-text-grey" style="letter-spacing: 5px;"></p><br>
-
-              <h4 style="letter-spacing: 5px;">info.mrizi@yahoo.it
-</h4><br><br><br>
-            
-
-<h4 style="letter-spacing: 5px;">e paharrueshme!
-</h4>
-
-              
-            
+        <br><br><br><br><br>
+       
+      
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+        <br><br><br>
+        <h2 style="margin-left: 200px;">Orari Yne</h2>
+            <div class="w3-col l6 w3-padding-large" style="margin-left: 89px; ">
+            <ul class="opening-hours" style="font-size: 18px;">
+              <br><br>
+  <li><strong>Monday:</strong> 8:00 am - 9:00 pm</li><br>
+  <li><strong>Tuesday:</strong> 8:00 am - 9:00 pm</li><br>
+  <li><strong>Wednesday:</strong> 8:00 am - 9:00 pm</li><br>
+  <li><strong>Thursday:</strong> 8:00 am - 9:00 pm</li><br>
+  <li><strong>Friday:</strong> 8:00 am - 9:00 pm</li><br>
+  <li><strong>Saturday:</strong> 9:00 am - 5:00 pm</li><br>
+  <li><strong>Sunday:</strong> Closed </li><br>
+</ul>
+               
 
            </div>
             
-           <img src="wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 50px;">
+           <img src="wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">
         </div
 
 
+        <footer>
+  <div class="container">
+    <div class="social-icons">
+      <a href="#">Facebook<i class="fa fa-facebook"></i></a>
+      <a href="#">Instagram<i class="fa fa-instagram"></i></a>
+      <a href="#">Twitter<i class="fa fa-twitter"></i></a>
+    </div>
+    <p>&copy; Rrjetet tona Sociale.</p>
+  </div>
+</footer>
 
- 
 
-
-
-
+   
 
       </body>
 </html>
