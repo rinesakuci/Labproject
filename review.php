@@ -61,7 +61,7 @@ exit();
     <style>
       .mySlides {display:none;}
       body {
-        background-image:  url("lik.jpg");
+        background-image:  url("blurr.jpeg");
         font-family: "Times New Roman", Georgia, Serif;
       }
       h1,
@@ -88,163 +88,92 @@ exit();
         border-radius: 5px;
         text-decoration: none;
       }
- 
-      .review-container {
-  width: 500px;
-  margin: auto;
-  text-align: center;
-  font-family: Arial, sans-serif;
-}
-
-.rating {
-  display: inline-block;
-}
-
-.rating input {
-  display: none;
-}
 
 
-.review-item {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-.review-item h4 {
-  margin-bottom: 5px;
-}
-
-.review-item .rating {
-  margin-bottom: 5px;
-}
-
-.review-item .comment {
-  margin-bottom: 10px;
-}
 
 
+/* Review Form Styling */
 .review-container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 45%;
+  margin: 0 auto;
 }
 
 .review-container label {
-  display: inline-block;
-  text-align: left;
-  margin-left: 15%;
-  font-size: 18px;
+  display: block;
+  font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.review-container input[type="text"],
-.review-container input[type="email"],
-.review-container select,
+.review-container input[type="text"], 
 .review-container textarea {
-  display: inline-block;
-  width: 70%;
   padding: 10px;
-  margin: 5px 0;
+  font-size: 1em;
+  border-radius: 3px;
   border: none;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .review-container select {
-  width: 73%;
-}
-
-.review-container .rating-comment {
-  text-align: center;
-  margin-left: 15%;
-}
-
-.review-container textarea {
-  height: 100px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30' width='60' height='30'%3E%3Cpath d='M2,2h56c0,3.3-2.7,6-6,6H8C4.7,8,2,5.3,2,2z' fill='%23f5f5f5'/%3E%3Cpath d='M2,24c0-3.3,2.7-6,6-6h40c3.3,0,6,2.7,6,6s-2.7,6-6,6H8C4.7,30,2,27.3,2,24z' fill='%23f5f5f5'/%3E%3Cpath d='M2,16h56c0,3.3-2.7,6-6,6H8C4.7,22,2,19.3,2,16z' fill='%23555555'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  background-size: 10px 12px;
 }
 
 .review-container input[type="submit"] {
-  background-color: #c0392b;
-  color: #fff;
+  background-color: #d3a625;
   border: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
   padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 3px;
   cursor: pointer;
-  margin-top: 10px;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.vintage {
-  background-color: #f8c7b1;
+.review-container input[type="submit"]:hover {
+  background-color: #b38e1b;
 }
 
-.vintage label {
-  font-size: 20px;
-  color: #fff;
-  margin-left: 0;
-  text-shadow: 1px 1px #9a8f8a;
+/* Vintage Styling */
+.review-container {
+  background-image: linear-gradient(to bottom right, #f5f5f5, #d9d9d9);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.vintage input[type="text"],
-.vintage input[type="email"],
-.vintage select,
-.vintage textarea {
-  background-color: #f4e4d4;
-  border: none;
-  box-shadow: none;
-  padding: 10px;
-  border-radius: 5px;
-  color: #7c6e68;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+.review-container label {
+  color: #b38e1b;
 }
 
-.vintage input[type="submit"] {
-  background-color: #9a8f8a;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 10px;
-  text-shadow: none;
+.review-container input[type="text"], 
+.review-container textarea {
+  background-color: #f2f2f2;
+  color: #666;
+  border: 1px solid #ccc;
 }
 
+.review-container select {
+  background-color: #
 
 
 
-
-
-
-select[name="rating"] {
-  background-image: url(star.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  padding-left: 80px; /* adjust as needed */
-}
-
-select[name="rating"] option[value="1"] {
-  background-position: 0 0; /* position of unfilled star */
-}
-
-select[name="rating"] option[value="2"] {
-  background-position: -20px 0; /* position of half-filled star */
-}
-
-select[name="rating"] option[value="3"] {
-  background-position: -40px 0; /* position of filled star */
-}
-
-/* add similar styles for 4 and 5 star ratings */
 
 
       
