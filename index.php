@@ -55,6 +55,12 @@
 li {
   display: inline;
   margin: 0 20px;
+   font-size: 20px;
+     background-color: #f8e6d4; /* vintage-style background color */
+  padding: 20px; /* add some padding for spacing */
+  border-radius: 10px; /* round the corners of the box */
+  box-shadow: 2px 2px 5px #b0b0b0; 
+ 
 }
 
 
@@ -86,13 +92,13 @@ footer {
 
 .social-icons a {
   display: inline-block;
-  width: 50px;
+  width: 80px;
   height: 50px;
   background-color: #fff;
-  border-radius: 40%;
+  border-radius: 70%;
   margin: 0 10px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   color: #1e1e1e;
   transition: all 0.3s ease-in-out;
 }
