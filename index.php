@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/main.css">
-  
+
     <style>
       .mySlides {display:none;}
       body {
@@ -62,79 +62,59 @@ li {
   box-shadow: 2px 2px 5px #b0b0b0; 
  
 }
-
-
-
-
-footer {
-  background-color: #1e1e1e;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px; /* set a height for the footer */
-}
-
-
-
-
-
-.container {
+.wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
 }
 
-.social-icons a {
-  display: inline-block;
-  width: 80px;
-  height: 50px;
-  background-color: #fff;
-  border-radius: 70%;
-  margin: 0 10px;
-  text-align: center;
-  line-height: 30px;
-  color: #1e1e1e;
-  transition: all 0.3s ease-in-out;
-}
-
-.social-icons a:hover {
-  transform: scale(1.1);
-}
 .social-icons {
   display: flex;
-  justify-content: center;
-}
-
-p {
-  text-align: center;
-  margin-top: 15px;
-}
-
-
-.fa {
-  font-size: 20px;
 }
 
 .social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px;
-  background-color: #333;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
   color: #fff;
-  border-radius: 50%;
+  text-decoration: none;
   font-size: 15px;
-  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.social-icons a:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+.social-icons a i {
+  margin-left: 5px;
+  font-size: 24px;
+  animation: fadeIn 1s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.me img {
+  margin-top: -50px;
+}
+
+
+
+
+
 
 
 
@@ -167,7 +147,7 @@ p {
         </div>
       </div>
     </div>
-  
+   
     
 
 
@@ -227,24 +207,28 @@ p {
   <li><strong>Saturday:</strong> 9:00 am - 5:00 pm</li><br>
   <li><strong>Sunday:</strong> Closed </li><br>
 </ul>
-               
+</div>        
+   
+           <div class="me">
+           <img src="wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
+</div>
+</div>
+<br><br>
 
-           </div>
-            
-           <img src="wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">
-        </div
-
-
-        <footer>
-  <div class="container">
+           <footer style="background-color: #333; color: #fff;">
+  <div class="wrapper">
     <div class="social-icons">
-      <a href="#">Facebook<i class="fa fa-facebook"></i></a>
-      <a href="#">Instagram<i class="fa fa-instagram"></i></a>
-      <a href="#">Twitter<i class="fa fa-twitter"></i></a>
+      <a href="https://www.facebook.com/" style="animation: fadeIn 1s ease-in-out forwards;">Facebook<i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/" style="animation: fadeIn 1s ease-in-out 0.2s forwards;">Instagram<i class="fa fa-instagram"></i></a>
+      <a href="#" style="animation: fadeIn 1s ease-in-out 0.4s forwards;">Twitter<i class="fa fa-twitter"></i></a>
     </div>
     <p>&copy; Rrjetet tona Sociale.</p>
   </div>
 </footer>
+
+
+
+    
 
 
    

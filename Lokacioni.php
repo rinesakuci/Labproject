@@ -88,28 +88,6 @@
 
 
 
-footer {
-  background-color: #F5F5F5;
-  color: #2c3e50;;
-  padding: 20px;
-  text-align: center;
-}
-
-.social-icons a {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-icons a i {
-  color: #fff;
-  font-size: 24px;
-  transition: all 0.3s ease-in-out;
-}
-
-.social-icons a:hover i {
-  transform: scale(1.2);
-}
-
 
 
 
@@ -147,6 +125,7 @@ footer {
         align-items: center;
         height: 100vh;
         background-color: #f2f2f2;
+        width: 1200px;
       }
       .about-mrizi {
         background-color: #fafafa;
@@ -189,7 +168,7 @@ footer {
 
 
   <div class="texti">
-  <h3>Lokacioni - Jone</h3>
+  <h3>Contact&Location</h3>
 </div>
 
 </header>
@@ -205,28 +184,50 @@ footer {
       <div class="about-mrizi">
     
         <br>
-     
+ 
 
-<div style="display: flex; align-items: center;">
-  <i class="fa fa-map-marker" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
-  <p style="color: #2c3e50; font-size: 18px; font-weight: bold;">Prizren , Bazhderhane , 3002 St.</p>
-</div>
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <i class="fa fa-envelope" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
-  <a href="mailto:mrizi@yahoo.com" style="color: #2c3e50; text-decoration: none; font-size: 18px; font-weight: bold; margin-right: 20px;"> mrizi@yahoo.com</a>
-</div>
+
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <i class="fa fa-phone" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
   <a href="tel:+38349100100" style="color: #2c3e50; text-decoration: none; font-size: 18px; font-weight: bold; margin-right: 20px;"> +38349-100-100</a>
   <i class="fa fa-phone" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
   <a href="tel:+38344100100" style="color: #2c3e50; text-decoration: none; font-size: 18px; font-weight: bold;">+38344-100-100</a>
 </div>
-        <p class="w3-large">Prizreni, vendi ku përjetoni historinë e pasur dhe mikpritjen e
-        ngrohtë të Hotel Mrizit.</p>
-        <div style="padding-right: 130px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5909.483896731428!2d20.740173224319022!3d42.21995961226521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135395a705b8e14b%3A0xd558e19f4aba3162!2sBazhdarhane%2C%20Prizren!5e0!3m2!1sen!2s!4v1680873593637!5m2!1sen!2s" width="600" height="450" style="border:0; margin-left: 100px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <i class="fa fa-envelope" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
+  <a href="mailto:mrizi@yahoo.com" style="color: #2c3e50; text-decoration: none; font-size: 18px; font-weight: bold; margin-right: 20px;"> mrizi@yahoo.com</a>
+</div>
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+        <div style="display: flex; align-items: center;">
+  <i class="fa fa-map-marker" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
+  <p style="color: #2c3e50; font-size: 18px; font-weight: bold;">Prizren , Bazhderhane , 3002 St.</p>
+</div>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater
+                the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact
+                us.</p>
+            <p class="w3-text-blue-grey w3-large"><b>Bazhderhane, Josip Rela, 43043 , Prizren</b></p>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a
+                message here:</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required
+                        name="People"></p>
+                <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required
+                        name="date" value="2020-11-16T20:00"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements"
+                        required name="Message"></p>
+                <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+     
 
-    
+        <!-- End page content -->
+    </div>
+
+        <div style="padding-right: 130px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5909.483896731428!2d20.740173224319022!3d42.21995961226521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135395a705b8e14b%3A0xd558e19f4aba3162!2sBazhdarhane%2C%20Prizren!5e0!3m2!1sen!2s!4v1680873593637!5m2!1sen!2s" width="400" height="300" style="border:0; margin-left: 200px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </form>
+        </div>
  
 </div>
       </div>
@@ -242,13 +243,7 @@ footer {
 
 
 
-
-
-<br>
-<br>
-<br>
-
-
+    
 
 <footer>
   
