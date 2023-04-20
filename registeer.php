@@ -51,7 +51,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
         <style>
             body {
                 font-family: "Times New Roman", Georgia, Serif;
-                background-image: url("f.jpg");
+                background-image: url("images/f.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
