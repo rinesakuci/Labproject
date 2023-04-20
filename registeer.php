@@ -1,3 +1,5 @@
+
+>>>>>>> 3f75885c09b3b56c39410e92df8b1deccca82d85
 <?php
 // Start a session
 
@@ -64,6 +66,14 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
                 font-family: "Playfair Display";
                 letter-spacing: 5px;
             }
+
+            .w3-bar {
+  height: 61px;
+}
+.w3-bar-item {
+    font-size: 15px;
+  }
+
         </style>
     </head>
 <body>
@@ -71,7 +81,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-            <a href="#home" class="w3-bar-item w3-button">Mrizi</a>
+            <a href="index.php" class="w3-bar-item w3-button">Mrizi</a>
             <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
             <a href="index.php" class="w3-bar-item w3-button">Rreth Nesh</a>
@@ -80,7 +90,6 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
                 <a href="registeer.php" class="w3-bar-item w3-button">Rezervo</a>
                 <a href="Lokacioni.php" class="w3-bar-item w3-button">Lokacioni</a>
                
-                
 									
                
                
@@ -137,9 +146,6 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
   }
 
-  .w3-bar {
-  height: 62px;
-}
   .registration-form label {
     display: block;
     font-family: "Georgia", serif;
@@ -163,10 +169,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     background-color: rgba(255, 255, 255, 0.7);
     color: #333;
   }
-  .w3-bar {
-  height: 62px;
-}
-  
+
   .registration-form input[type="submit"] {
     display: block;
     margin: 0 auto;
