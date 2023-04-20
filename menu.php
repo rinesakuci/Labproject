@@ -1,12 +1,4 @@
 
-<?php
-session_start();
-include "menagdb.php";
-
-// $sql = "SELECT * FROM menu";
-// $stmt = $pdo->prepare($sql);
-// $result = $pdo->query($sql);
-?>
 
 <!DOCTYPE html>
 
