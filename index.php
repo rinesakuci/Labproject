@@ -168,7 +168,7 @@ li {
     <div class="w3-content" style="max-width:1100px">
 <br><br><br><br><br><br>
         <!-- About Section -->
-        <img src="get.jpg" alt="get" width="460" height="530" style="float: right;">
+        <img src="images/get.jpg" alt="get" width="460" height="530" style="float: right;">
 
       
 
@@ -210,7 +210,7 @@ li {
 </div>        
    
            <div class="me">
-           <img src="wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
+           <img src="images/wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
 </div>
 </div>
 <br><br>
