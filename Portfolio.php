@@ -93,28 +93,28 @@ h6 {
     
     <!-- Slides -->
     <div class="slide">
-        <img src="pasti.jpg" alt="Pasta">
+        <img src="images/pasti.jpg" alt="Pasta">
         <div class="caption">Pasta</div>
     </div>
     <div class="slide">
-        <img src="mish.jpg" alt="Kotlet">
+        <img src="images/mish.jpg" alt="Kotlet">
         <div class="caption">Kotlet</div>
     </div>
     <div class="slide">
-        <img src="flia.jpg" alt="Flia">
+        <img src="images/flia.jpg" alt="Flia">
         <div class="caption">Flia</div>
     </div>
     
     <div class="slide">
-        <img src="salle.jpg" alt="Sallate pule">
+        <img src="images/salle.jpg" alt="Sallate pule">
         <div class="caption">Sallate pule</div>
     </div>
     <div class="slide">
-        <img src="piz.jpg" alt="Pizza">
+        <img src="images/piz.jpg" alt="Pizza">
         <div class="caption">Pizza</div>
     </div>
     <div class="slide">
-        <img src="burek.jpg" alt="Pite">
+        <img src="images/burek.jpg" alt="Pite">
         <div class="caption">Pite</div>
     </div>
 
