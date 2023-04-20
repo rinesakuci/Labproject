@@ -8,10 +8,11 @@
 <title>Mrizi</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="css/main.css" />
-		
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href= css/main.css type= "text/css">
+        </head>
 <style>
+    
      body {
                 font-family: "Times New Roman", Georgia, Serif;
             }
@@ -25,6 +26,14 @@
                 font-family: "Playfair Display";
                 letter-spacing: 5px;
             }
+            
+            .w3-bar-item {
+    font-size: 19px;
+  }
+           
+  .w3-bar {
+  height: 62px;
+}
        
 header {
 	background-color: #333;
@@ -37,6 +46,9 @@ header {
 
 h1 {
 	margin: 0;
+}
+.w3-bar {
+  height: 62px;
 }
 
 .menu{
@@ -92,8 +104,8 @@ h1 {
     </div>
      <!-- Header -->
 	 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
+
 <body>
 <h1>Best Dishes</h1>
 </header>

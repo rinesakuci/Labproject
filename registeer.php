@@ -77,7 +77,8 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
             <a href="index.php" class="w3-bar-item w3-button">Rreth Nesh</a>
                 <a href="menu.php" class="w3-bar-item w3-button">Menu</a>
                 <a href="Portfolio.php" class="w3-bar-item w3-button">Portfolio</a>
-                <a href="registeer.php" class="w3-bar-item w3-button">Rezervimet</a>
+                <a href="registeer.php" class="w3-bar-item w3-button">Rezervo</a>
+                <a href="Lokacioni.php" class="w3-bar-item w3-button">Lokacioni</a>
                
                 
 									
@@ -135,7 +136,10 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
    
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
   }
-  
+
+  .w3-bar {
+  height: 62px;
+}
   .registration-form label {
     display: block;
     font-family: "Georgia", serif;
@@ -159,6 +163,9 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     background-color: rgba(255, 255, 255, 0.7);
     color: #333;
   }
+  .w3-bar {
+  height: 62px;
+}
   
   .registration-form input[type="submit"] {
     display: block;
