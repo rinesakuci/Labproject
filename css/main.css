@@ -1,3 +1,7 @@
+
+
+
+
 .mySlides {display:none;}
 
 .mySlides {
@@ -33,36 +37,9 @@
     object-fit: cover;
 }
 
-.caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
-}
 
-.prev,
-.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 3em;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
-    cursor: pointer;
-}
 
-.prev {
-    left: 20px;
-}
 
-.next {
-    right: 20px;
-}
 
 video {
     width: 100%;

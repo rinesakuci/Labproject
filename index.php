@@ -137,7 +137,7 @@ li {
     <div class="w3-content" style="max-width:1100px">
 <br><br><br><br><br><br>
         <!-- About Section -->
-        <img src="images/get.jpg" alt="get" width="460" height="530" style="float: right;">
+        <img src="images/get.jpg" alt="get" width="485" height="530" style="float: right;">
       
             <div class="w3-col m6 w3-padding-large">
                 <h1 class="w3-center">Rreth Mrizit</h1><br>

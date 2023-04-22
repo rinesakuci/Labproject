@@ -6,15 +6,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href= css/main.css type= "text/css">
-
-
-
-
+<link rel="stylesheet" href ="css/main.css">
 
     </head>
-<body>
+ <!-- HEAD-->
 
+
+<body>
 
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
@@ -31,6 +29,8 @@
             </div>
         </div>
     </div>
+
+
 <style>
     body {
     font-family: "Times New Roman", Georgia, Serif;
@@ -53,32 +53,11 @@ h6 {
 .w3-content {
     position: relative;
 }
-/* Style for navigation buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #fff;
-  font-size: 32px;
-  font-weight: bold;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-/* Position the "prev" button to the left */
-.prev {
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-
 
 .caption {
-  padding-bottom: 35px;
-  background-color: rgba(238, 207, 161, 0.9);
+  padding: 35px;
+  background-image: url('grey-wood-texture.jpg');
+  background-repeat: repeat;
   border-radius: 0;
   border: 6px solid #f7dcb4;
   cursor: pointer;
@@ -95,21 +74,17 @@ h6 {
   left: 17%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
-  width: 420px;
+  width: 410px;
   height: auto;
-  max-height: 200px;
+  max-height: 270px;
   overflow-y: auto;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-  box-shadow: inset 0px 0px 20px 10px rgba(255,255,255,0.8);
+  box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.8);
 }
-
-
 
 .caption p {
-margin: 40px;
+  margin: 40px;
 }
-
-
 
 .caption::before {
   /* Existing styles */
@@ -118,37 +93,17 @@ margin: 40px;
   margin-right: 10px;
   font-size: 25px;
   margin-bottom: 10px;
-  
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 </style>
     
+
+
+
+
+
     <!-- Slides -->
     <div class="slide">
         <img src="images/pasti.jpg" alt="Pasta">
@@ -183,8 +138,8 @@ margin: 40px;
     <!-- Navigation arrows -->
    
 </div>
-
 <script>
+
 class Slideshow {
   constructor(slides) {
     this.slides = slides;
@@ -199,7 +154,7 @@ class Slideshow {
     // Automatically move to next slide every 3 seconds
     setInterval(() => {
       this.nextSlide();
-    }, 2700);
+    }, 2900);
   }
   nextSlide() {
     this.currentSlideIndex++;
@@ -218,8 +173,9 @@ class Slideshow {
 // Usage:
 const slides = document.querySelectorAll('.slide');
 const slideshow = new Slideshow(slides);
-</script>
 
+
+</script>
 
 
 
