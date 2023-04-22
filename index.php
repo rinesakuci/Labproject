@@ -96,6 +96,58 @@ li {
 }
 
 
+.lines-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.elegant-line {
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: transparent;
+  margin: 0 30px;
+}
+
+.elegant-line:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -12.5px;
+  left: -12.5px;
+  background-color: #395144;
+  background-size: cover;
+}
+
+.elegant-line:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: -12.5px;
+  right: -12.5px;
+  background-color: #F0EBCE;
+  background-size: cover;
+}
+
+.elegant-line:nth-child(1):before,
+.elegant-line:nth-child(2):before,
+.elegant-line:nth-child(3):before {
+  transform: rotate(45deg);
+}
+
+.elegant-line:nth-child(1):after,
+.elegant-line:nth-child(2):after,
+.elegant-line:nth-child(3):after {
+  transform: rotate(-45deg);
+}
+
+
+
+
 
 
 
@@ -156,16 +208,23 @@ li {
             </div>
         </div>
         <br><br><br><br><br>
-       
       
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu" >
+
+  <div class="lines-container">
+  <div class="elegant-line"></div>
+  <div class="elegant-line"></div>
+  <div class="elegant-line"></div>
+</div>
+
 
         <br><br><br>
         <h2 style="margin-left: 200px;">Orari Yne</h2>
             <div class="w3-col l6 w3-padding-large" style="margin-left: 89px; ">
             <ul class="opening-hours" style="font-size: 18px;">
               <br><br>
+             
   <li><strong>Monday:</strong> 8:00 am - 9:00 pm</li><br>
   <li><strong>Tuesday:</strong> 8:00 am - 9:00 pm</li><br>
   <li><strong>Wednesday:</strong> 8:00 am - 9:00 pm</li><br>
@@ -175,6 +234,7 @@ li {
   <li><strong>Sunday:</strong> Closed </li><br>
 </ul>
 </div>        
+ 
 
            <div class="me">
            <img src="images/wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
