@@ -1,5 +1,3 @@
-
->>>>>>> 3f75885c09b3b56c39410e92df8b1deccca82d85
 <?php
 // Start a session
 
@@ -118,14 +116,12 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
          position: fixed;
          bottom: 15px;
          right: 15px;
-
    padding: 10px 25px; border-radius: 3px; text-decoration: none; font-size: 9px;">Je Administrator ? Eja kycu</a><br>
  
  <a href="puntori_login.php" style="color: white; border: 2px solid white;
          position: fixed;
          bottom: 55px;
          right: 15px;
-
    padding: 10px 25px; border-radius: 3px; text-decoration: none; font-size: 9px;">Je Staf ? Eja kycu</a><br>
         <input type="submit" name ="submit " value="Register">
 
@@ -137,13 +133,15 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
         <style>
        
 .form-container {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
   
     background-size: cover;
     padding: 80px;
    
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+
+    margin-top: 30px;
   }
 
   .registration-form label {
@@ -162,7 +160,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     border: none;
     font-size: 18px;
     font-family: "Georgia", serif;
@@ -170,23 +168,34 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     color: #333;
   }
 
-  .registration-form input[type="submit"] {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: 				#484848;
-    color: #fff;
-    font-size: 18px;
-    font-family: "Georgia", serif;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
   
-  .registration-form input[type="submit"]:hover {
-    background-color: #694c21;
-  }
+  .registration-form input[type="submit"] {
+display: block;
+margin: -20px auto;
+padding: 10px 20px;
+border: 4px solid #fff;
+font-size: 18px;
+font-family: "Georgia", serif;
+text-transform: uppercase;
+cursor: pointer;
+background-color: transparent; /* added background-color property with a value of transparent */
+color: #fff;
+width: 200px;
+height: 50px;
+}
+
+.registration-form input[type="submit"]:hover {
+background-color: transparent;
+color: #fff;
+}
+
+input[type="submit"]:hover {
+border: 4px solid #fff;
+cursor: pointer;
+}
+
+
+
   
 
 

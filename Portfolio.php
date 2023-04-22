@@ -28,7 +28,6 @@
                 <a href="registeer.php" class="w3-bar-item w3-button">Rezervo</a>
                 <a href="lokacioni.php" class="w3-bar-item w3-button">Lokacioni</a>
 									
-
             </div>
         </div>
     </div>
@@ -42,8 +41,6 @@
   .w3-bar {
   height: 67px;
 }
-
-
 h1,
 h2,
 h3,
@@ -71,82 +68,139 @@ h6 {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
 /* Position the "prev" button to the left */
 .prev {
   left: 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* Position the "next" button to the right */
-.next {
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+
+
+.caption {
+  padding-bottom: 35px;
+  background-color: rgba(238, 207, 161, 0.9);
+  border-radius: 0;
+  border: 6px solid #f7dcb4;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  width: 420px;
+  height: auto;
+  max-height: 200px;
+  overflow-y: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  box-shadow: inset 0px 0px 20px 10px rgba(255,255,255,0.8);
 }
 
-/* Style for navigation button on hover */
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+
+
+.caption p {
+margin: 40px;
 }
+
+
+
+.caption::before {
+  /* Existing styles */
+  content: "\1F37D";
+  font-family: "Noto Color Emoji";
+  margin-right: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </style>
     
     <!-- Slides -->
     <div class="slide">
         <img src="images/pasti.jpg" alt="Pasta">
-        <div class="caption">Pasta</div>
+        <div class="caption">Pasta, një nga përgatitjet 
+           është spaghetti, i cili është i gjatë dhe i hollë, 
+          por ka shumë lloje të tjera si penne dhe të tjera. </div>
     </div>
     <div class="slide">
         <img src="images/mish.jpg" alt="Kotlet">
-        <div class="caption">Kotlet</div>
+        <div class="caption">Kotlet, është një pjatë e përgatitur nga mish viçi të copëtuar në pjesë të vogla dhe i skuqur në vaj të nxehtë. </div>
     </div>
     <div class="slide">
         <img src="images/flia.jpg" alt="Flia">
-        <div class="caption">Flia</div>
+        <div class="caption">Flia, gatim tradicional shqiptar me shije unike dhe shoqeruar me kos. E pjekur ne menyre te vjeter nga shtresa te miellit!</div>
     </div>
     
     <div class="slide">
         <img src="images/salle.jpg" alt="Sallate pule">
-        <div class="caption">Sallate pule</div>
+        <div class="caption">Sallate pule, shtë një pjatë e shëndetshme dhe e
+           shijshme përgatitet me mish të përgatitur pule, perime dhe lëng limoni.</div>
     </div>
     <div class="slide">
         <img src="images/piz.jpg" alt="Pizza">
-        <div class="caption">Pizza</div>
+        <div class="caption">Pizza, pjatë popullore italiane që 
+          konsiston nga një bazë e hollë e miellit, domate, djathë dhe mish ose perime të ndryshme. </div>
     </div>
     <div class="slide">
         <img src="images/burek.jpg" alt="Pite">
-        <div class="caption">Pite</div>
+        <div class="caption">Pite, shtë një pjatë tradicionale shqiptare që konsiston nga dy baza te holla te 
+          miellit, shoqeruar me kos.</div>
     </div>
-
     <!-- Navigation arrows -->
-    <div class="prev">&lt;</div>
-    <div class="next">&gt;</div>
+   
 </div>
-
-
-
-
 
 <script>
 class Slideshow {
-  constructor(slides, prevBtn, nextBtn) {
+  constructor(slides) {
     this.slides = slides;
-    this.prevBtn = prevBtn;
-    this.nextBtn = nextBtn;
     this.currentSlideIndex = 0;
     this.numSlides = slides.length;
     this.init();
   }
-
   init() {
     // Set initial slide
     this.showSlide(this.currentSlideIndex);
     
-    // Handle navigation buttons
-    this.prevBtn.addEventListener('click', () => this.prevSlide());
-    this.nextBtn.addEventListener('click', () => this.nextSlide());
+    // Automatically move to next slide every 3 seconds
+    setInterval(() => {
+      this.nextSlide();
+    }, 2700);
   }
-
   nextSlide() {
     this.currentSlideIndex++;
     if (this.currentSlideIndex >= this.numSlides) {
@@ -154,15 +208,6 @@ class Slideshow {
     }
     this.showSlide(this.currentSlideIndex);
   }
-
-  prevSlide() {
-    this.currentSlideIndex--;
-    if (this.currentSlideIndex < 0) {
-      this.currentSlideIndex = this.numSlides - 1;
-    }
-    this.showSlide(this.currentSlideIndex);
-  }
-
   showSlide(index) {
     // Remove active class from all slides
     this.slides.forEach(slide => slide.classList.remove('active'));
@@ -170,15 +215,9 @@ class Slideshow {
     this.slides[index].classList.add('active');
   }
 }
-
 // Usage:
 const slides = document.querySelectorAll('.slide');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
-
-const slideshow = new Slideshow(slides, prevBtn, nextBtn);
-
-
+const slideshow = new Slideshow(slides);
 </script>
 
 

@@ -1,4 +1,11 @@
+<?php
+session_start();
+include "menagdb.php";
 
+// $sql = "SELECT * FROM menu";
+// $stmt = $pdo->prepare($sql);
+// $result = $pdo->query($sql);
+?>
 
 <!DOCTYPE html>
 
@@ -34,12 +41,7 @@ header {
     background-image: url("images/mi.jpg");
 
 }
-.w3-bar {
-  height: 57px;
-}
-.w3-bar-item {
-    font-size: 15px;
-  }
+
 h1 {
 	margin: 0;
 }
@@ -126,8 +128,6 @@ h1 {
 </section>
 
 <!-- <section>
-
-
     
     <!-- Add a new menu item form -->
     <!-- <div class="menu">
@@ -165,13 +165,10 @@ h1 {
   
     </div>
    
-
   </body>
-
 </html>
 </section> --> 
 
 
 </body>
 </html>
-

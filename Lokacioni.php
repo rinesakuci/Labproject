@@ -20,7 +20,7 @@
       h6 {
         font-family: "Playfair Display";
         letter-spacing: 8px;
-        color : #006400;
+        color : #2F4F4F
       }
       .slider-image {
   position: absolute;

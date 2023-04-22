@@ -28,8 +28,6 @@
 .w3-bar-item {
     font-size: 15px;
   }
-
-
       .button {
         display: inline-block;
         margin: 0 20px;
@@ -39,7 +37,6 @@
         border-radius: 5px;
         text-decoration: none;
       }
-
       ul {
   list-style-type: none;
   margin: 0;
@@ -47,11 +44,6 @@
   line-height: 2.5;
   letter-spacing: 3px;
 }
-
-
-
-
-
 li {
   display: inline;
   margin: 0 20px;
@@ -71,11 +63,9 @@ li {
   align-items: center;
   height: 72px;
 }
-
 .social-icons {
   display: flex;
 }
-
 .social-icons a {
   display: flex;
   align-items: center;
@@ -86,13 +76,11 @@ li {
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .social-icons a i {
   margin-left: 5px;
   font-size: 24px;
   animation: fadeIn 1s ease-in-out forwards;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -103,10 +91,6 @@ li {
     transform: translateY(0);
   }
 }
-
-
-
-
 .me img {
   margin-top: -50px;
 }
@@ -115,28 +99,17 @@ li {
 
 
 
-
-
-
-
-
     </style>
-
   </head>
   
   <body>
-
     <!-- Navbar (sit on top) -->
     <div class="navigmi-top">
   
-
       <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
         <a href="index.php" class="w3-bar-item w3-button">Mrizi</a>
      
        
-
-
-
         <!-- Right-sided navbar links. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
           <a href="index.php" class="w3-bar-item w3-button">Rreth Nesh</a>
@@ -149,9 +122,6 @@ li {
     </div>
    
     
-
-
-
     <!-- Header -->
     <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:1300px" id="home">
     <video autoplay loop muted plays-inline type="video/mp4">
@@ -163,15 +133,12 @@ li {
             <h1 class="w3-xxlarge">La vie est Mrizi</h1>
         </div>
     </header>
-
     <!-- Page content -->
     <div class="w3-content" style="max-width:1100px">
 <br><br><br><br><br><br>
         <!-- About Section -->
         <img src="images/get.jpg" alt="get" width="460" height="530" style="float: right;">
-
       
-
             <div class="w3-col m6 w3-padding-large">
                 <h1 class="w3-center">Rreth Mrizit</h1><br>
                 <h5 class="w3-center">Tradition since 1889</h5>
@@ -188,12 +155,12 @@ li {
                       së zarzavateve tona lokale në kërkim të frymëzimit për darkën e asaj dite.</p>
             </div>
         </div>
-
         <br><br><br><br><br>
        
       
   <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
+  <div class="w3-row w3-padding-64" id="menu" >
+
         <br><br><br>
         <h2 style="margin-left: 200px;">Orari Yne</h2>
             <div class="w3-col l6 w3-padding-large" style="margin-left: 89px; ">
@@ -208,13 +175,12 @@ li {
   <li><strong>Sunday:</strong> Closed </li><br>
 </ul>
 </div>        
-   
+
            <div class="me">
            <img src="images/wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
 </div>
 </div>
 <br><br>
-
            <footer style="background-color: #333; color: #fff;">
   <div class="wrapper">
     <div class="social-icons">
@@ -225,13 +191,7 @@ li {
     <p>&copy; Rrjetet tona Sociale.</p>
   </div>
 </footer>
-
-
-
     
-
-
    
-
       </body>
 </html>
