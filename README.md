@@ -1,8 +1,9 @@
 # Labproject
 <img src="logo.png" alt="PHP logo" width="98">
-<img src="js.jpg" alt="jS logo" width="98">
+<img src="js.png" alt="jS logo" width="98">
+
 ## Mrizi
-Ky është një sistem i bazuar në web për menaxhimin e operacioneve të restoranteve dhe rezervimet e klienteve.
+### Ky është një sistem i bazuar në web për menaxhimin e operacioneve të restoranteve dhe rezervimet e klienteve.
  ## Teknologjite
 
  - Front-end : HTML , CSS , JavaScript <br> **Client Side**
