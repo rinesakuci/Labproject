@@ -61,25 +61,28 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
+  height: 98px;
 }
 .social-icons {
   display: flex;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 .social-icons a {
+  font-family: "Times New Roman", Georgia, Serif;
   display: flex;
   align-items: center;
   margin-right: 20px;
   color: #fff;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bold;
+
+  font-size: 14px;
+
   text-transform: uppercase;
 }
 .social-icons a i {
   margin-left: 5px;
   font-size: 24px;
   animation: fadeIn 1s ease-in-out forwards;
+  
 }
 @keyframes fadeIn {
   from {
@@ -96,59 +99,13 @@ li {
 }
 
 
-.lines-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0;
+.meal {
+  font-size: 26px;
+  font-family: Consolas, monospace;
+  padding-right: 75px;
+  font-weight: bold;
+
 }
-
-.elegant-line {
-  position: relative;
-  height: 2px;
-  width: 250px;
-  background-color: transparent;
-  margin: 0 30px;
-}
-
-.elegant-line:before {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: -12.5px;
-  left: -12.5px;
-  background-color: #395144;
-  background-size: cover;
-}
-
-.elegant-line:after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  bottom: -12.5px;
-  right: -12.5px;
-  background-color: #F0EBCE;
-  background-size: cover;
-}
-
-.elegant-line:nth-child(1):before,
-.elegant-line:nth-child(2):before,
-.elegant-line:nth-child(3):before {
-  transform: rotate(45deg);
-}
-
-.elegant-line:nth-child(1):after,
-.elegant-line:nth-child(2):after,
-.elegant-line:nth-child(3):after {
-  transform: rotate(-45deg);
-}
-
-
-
-
-
 
 
     </style>
@@ -212,12 +169,6 @@ li {
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu" >
 
-  <div class="lines-container">
-  <div class="elegant-line"></div>
-  <div class="elegant-line"></div>
-  <div class="elegant-line"></div>
-</div>
-
 
         <br><br><br>
         <h2 style="margin-left: 200px;">Orari Yne</h2>
@@ -235,7 +186,6 @@ li {
 </ul>
 </div>        
  
-
            <div class="me">
            <img src="images/wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
 </div>
@@ -244,8 +194,9 @@ li {
            <footer style="background-color: #333; color: #fff;">
   <div class="wrapper">
     <div class="social-icons">
-      <a href="https://www.facebook.com/" style="animation: fadeIn 1s ease-in-out forwards;">Facebook<i class="fa fa-facebook"></i></a>
-      <a href="https://www.instagram.com/" style="animation: fadeIn 1s ease-in-out 0.2s forwards;">Instagram<i class="fa fa-instagram"></i></a>
+      <p class="meal"> Meals nga Mrizi <p>
+      <a href="https://www.facebook.com/" style="animation: fadeIn 1s ease-in-out forwards;">Facebook</a>
+      <a href="https://www.instagram.com/" style="animation: fadeIn 1s ease-in-out 0.2s forwards;">Instagram</a>
       <a href="#" style="animation: fadeIn 1s ease-in-out 0.4s forwards;">Twitter<i class="fa fa-twitter"></i></a>
     </div>
     <p>&copy; Rrjetet tona Sociale.</p>

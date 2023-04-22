@@ -53,46 +53,39 @@ h6 {
 .w3-content {
     position: relative;
 }
-
 .caption {
   padding: 35px;
-  background-image: url('grey-wood-texture.jpg');
-  background-repeat: repeat;
+  background: url('wood-texture.jpg') center center fixed;
+  background-size: cover;
   border-radius: 0;
-  border: 6px solid #f7dcb4;
+  border: 15px solid #fff;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-family: "Times New Roman", Georgia, Serif;
-  font-size: 19px;
+  font-family: 'Lucida Console', monospace;
+  font-size: 28px;serif;
+
   justify-content: center;
   align-items: center;
   position: absolute;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   top: 50%;
-  left: 17%;
+  left: 15%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
   width: 410px;
-  height: auto;
-  max-height: 270px;
+  height: 800px;
   overflow-y: auto;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
   box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #fff; /* White text color */
 }
+
+
 
 .caption p {
   margin: 40px;
-}
-
-.caption::before {
-  /* Existing styles */
-  content: "\1F37D";
-  font-family: "Noto Color Emoji";
-  margin-right: 10px;
-  font-size: 25px;
-  margin-bottom: 10px;
 }
 
 
@@ -106,34 +99,31 @@ h6 {
 
     <!-- Slides -->
     <div class="slide">
-        <img src="images/pasti.jpg" alt="Pasta">
-        <div class="caption">Pasta, një nga përgatitjet 
-           është spaghetti, i cili është i gjatë dhe i hollë, 
-          por ka shumë lloje të tjera si penne dhe të tjera. </div>
+        <img src="images/steak.jpg" alt="Kotlet">
+        <div class="caption">Kotlet, është një pjatë e përgatitur nga mish viçi të copëtuar. </div>
     </div>
     <div class="slide">
-        <img src="images/mish.jpg" alt="Kotlet">
-        <div class="caption">Kotlet, është një pjatë e përgatitur nga mish viçi të copëtuar në pjesë të vogla dhe i skuqur në vaj të nxehtë. </div>
+        <img src="images/pasti.jpg" alt="Pasta">
+        <div class="caption">Pasta, një nga përgatitjet me shije unike dhe delikatese . </div>
+    </div>
+ 
+    <div class="slide">
+        <img src="images/sall.jpg" alt="Sallate pule">
+        <div class="caption">Sallate pule, shtë një pjatë e shëndetshme .</div>
     </div>
     <div class="slide">
         <img src="images/flia.jpg" alt="Flia">
-        <div class="caption">Flia, gatim tradicional shqiptar me shije unike dhe shoqeruar me kos. E pjekur ne menyre te vjeter nga shtresa te miellit!</div>
+        <div class="caption">Flia, gatim tradicional shqiptar me shije unike. </div>
     </div>
     
+  
     <div class="slide">
-        <img src="images/salle.jpg" alt="Sallate pule">
-        <div class="caption">Sallate pule, shtë një pjatë e shëndetshme dhe e
-           shijshme përgatitet me mish të përgatitur pule, perime dhe lëng limoni.</div>
+        <img src="images/pizz.jpg" alt="Pizza">
+        <div class="caption">Pizza, pjatë popullore italiane . </div>
     </div>
     <div class="slide">
-        <img src="images/piz.jpg" alt="Pizza">
-        <div class="caption">Pizza, pjatë popullore italiane që 
-          konsiston nga një bazë e hollë e miellit, domate, djathë dhe mish ose perime të ndryshme. </div>
-    </div>
-    <div class="slide">
-        <img src="images/burek.jpg" alt="Pite">
-        <div class="caption">Pite, shtë një pjatë tradicionale shqiptare që konsiston nga dy baza te holla te 
-          miellit, shoqeruar me kos.</div>
+        <img src="images/risoto.jpg" alt="Pite">
+        <div class="caption">Pite, shtë një pjatë tradicionale shqiptare.</div>
     </div>
     <!-- Navigation arrows -->
    
