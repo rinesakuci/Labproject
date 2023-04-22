@@ -1,5 +1,5 @@
 # Labproject
-<img src="logo.png" alt="PHP logo" width="50">
+<img src="logo.png" alt="PHP logo" width="70">
 
 ## Mrizi
 Ky është një sistem i bazuar në web për menaxhimin e operacioneve të restoranteve dhe rezervimet e klienteve.
