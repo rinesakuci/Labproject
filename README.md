@@ -16,4 +16,4 @@
 
 ### Screenshots
 
-<img src="Homepage.png" width="300"><img src="menu.png"  width="300">  <img src="Portfolio.png" width="300"> <img src="Rezervimi.png" width="300">
+<img src="Homepage.png" width="360"><img src="menu.png"  width="360"> <br> <img src="Portfolio.png" width="360"> <img src="Rezervimi.png" width="360">
