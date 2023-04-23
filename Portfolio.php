@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href ="css/main.css">
 
+
     </head>
  <!-- HEAD-->
 
@@ -58,12 +59,14 @@ h6 {
   background: url('wood-texture.jpg') center center fixed;
   background-size: cover;
   border-radius: 0;
-  border: 15px solid #fff;
+  border: 1px solid #fff;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   font-family: 'Lucida Console', monospace;
-  font-size: 28px;serif;
+  font-size: 40px;serif;
+font-weight: bold;
+ 
 
   justify-content: center;
   align-items: center;
@@ -99,32 +102,34 @@ h6 {
 
     <!-- Slides -->
     <div class="slide">
-        <img src="images/steak.jpg" alt="Kotlet">
-        <div class="caption">Kotlet, është një pjatë e përgatitur nga mish viçi të copëtuar. </div>
+        <img src="images/steak.jpeg" alt="Kotlet">
+        <div class="caption">Kotlet  </div>
     </div>
     <div class="slide">
-        <img src="images/pasti.jpg" alt="Pasta">
-        <div class="caption">Pasta, një nga përgatitjet me shije unike dhe delikatese . </div>
+        <img src="images/risoto.jpg" alt="Pite">
+        <div class="caption">Rizoto</div>
+    </div>
+   
+    <div class="slide">
+        <img src="images/pasta.jpeg" alt="Pasta">
+        <div class="caption">Tagliatele </div>
     </div>
  
     <div class="slide">
         <img src="images/sall.jpg" alt="Sallate pule">
-        <div class="caption">Sallate pule, shtë një pjatë e shëndetshme .</div>
+        <div class="caption">Sallate pule </div>
     </div>
     <div class="slide">
         <img src="images/flia.jpg" alt="Flia">
-        <div class="caption">Flia, gatim tradicional shqiptar me shije unike. </div>
+        <div class="caption">Fli  </div>
     </div>
     
   
     <div class="slide">
-        <img src="images/pizz.jpg" alt="Pizza">
-        <div class="caption">Pizza, pjatë popullore italiane . </div>
+        <img src="images/piz.jpg" alt="Pizza">
+        <div class="caption">Pizza </div>
     </div>
-    <div class="slide">
-        <img src="images/risoto.jpg" alt="Pite">
-        <div class="caption">Pite, shtë një pjatë tradicionale shqiptare.</div>
-    </div>
+ 
     <!-- Navigation arrows -->
    
 </div>

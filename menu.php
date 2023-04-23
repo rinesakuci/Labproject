@@ -38,7 +38,7 @@ header {
 	color: #fff;
 	padding: 60px;
 	text-align: center;
-    background-image: url("images/mi.jpg");
+    background-image: url("images/lux.jpeg");
 
 }
 
@@ -55,6 +55,7 @@ h1 {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	transition: box-shadow 0.3s ease-in-out;
+   
 }
 
 .menu:hover {

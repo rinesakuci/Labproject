@@ -9,9 +9,14 @@
     <style>
       .mySlides {display:none;}
       body {
-       margin:0;
+    margin:0;
        padding:0;
         font-family: "Times New Roman", Georgia, Serif;
+
+        background-color: #f1f1f1;
+  background-image: url("aa.jpeg");
+  background-repeat: repeat;
+  background-size: cover;
       }
       h1,
       h2,
@@ -24,6 +29,7 @@
       }
       .w3-bar {
   height: 61px;
+ width: 1300px;
 }
 .w3-bar-item {
     font-size: 15px;
@@ -47,8 +53,8 @@
 li {
   display: inline;
   margin: 0 20px;
-   font-size: 20px;
-     background-color: #f8e6d4; /* vintage-style background color */
+   font-size: 21px;
+     background-color: transparent; /* vintage-style background color */
   padding: 20px; /* add some padding for spacing */
   border-radius: 10px; /* round the corners of the box */
   box-shadow: 2px 2px 5px #b0b0b0; 
@@ -61,18 +67,19 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 98px;
+  height: 110px;
 }
 .social-icons {
   display: flex;
-  font-family: "Times New Roman", Georgia, Serif;
+  font-family: Consolas, monospace; 
 }
 .social-icons a {
-  font-family: "Times New Roman", Georgia, Serif;
+  font-family: Consolas, monospace;
   display: flex;
   align-items: center;
   margin-right: 20px;
   color: #fff;
+  padding-top: 4px;
 
   font-size: 14px;
 
@@ -100,9 +107,9 @@ li {
 
 
 .meal {
-  font-size: 26px;
+  font-size: 28px;
   font-family: Consolas, monospace;
-  padding-right: 75px;
+  padding-right: 70px;
   font-weight: bold;
 
 }
@@ -146,7 +153,8 @@ li {
     <div class="w3-content" style="max-width:1100px">
 <br><br><br><br><br><br>
         <!-- About Section -->
-        <img src="images/get.jpg" alt="get" width="485" height="530" style="float: right;">
+        <img src="images/get.jpg" alt="get" width="465" height="460" style="float: right;position: relative; bottom: -30px;">
+
       
             <div class="w3-col m6 w3-padding-large">
                 <h1 class="w3-center">Rreth Mrizit</h1><br>
@@ -171,7 +179,7 @@ li {
 
 
         <br><br><br>
-        <h2 style="margin-left: 200px;">Orari Yne</h2>
+        <h1 style="margin-left: 200px;">Orari Yne</h1>
             <div class="w3-col l6 w3-padding-large" style="margin-left: 89px; ">
             <ul class="opening-hours" style="font-size: 18px;">
               <br><br>

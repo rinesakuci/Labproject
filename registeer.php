@@ -43,13 +43,13 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        
+        <script src="validation/validation.js"></script>
         
         
         <style>
             body {
                 font-family: "Times New Roman", Georgia, Serif;
-                background-image: url("images/f.jpg");
+                background-image: url("images/d.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -112,13 +112,13 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
         <input type="tel" name="cell" required>
         <label>Date:</label>
         <input type="date" name="date" required>
-        <a href="admin_login.php" style="color: white; border: 2px solid white;
+        <a href="admin_login.php" style="color: #263A29; border: 2px solid #263A29;
          position: fixed;
          bottom: 15px;
          right: 15px;
    padding: 10px 25px; border-radius: 3px; text-decoration: none; font-size: 9px;">Je Administrator ? Eja kycu</a><br>
  
- <a href="puntori_login.php" style="color: white; border: 2px solid white;
+ <a href="puntori_login.php" style="color: 263A29; border: 2px solid #263A29;
          position: fixed;
          bottom: 55px;
          right: 15px;
@@ -148,7 +148,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
     display: block;
     font-family: "Georgia", serif;
     font-size: 18px;
-    color: #fff;
+    color: #263A29;
     margin-bottom: 10px;
   }
   
@@ -173,20 +173,20 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
 display: block;
 margin: -20px auto;
 padding: 10px 20px;
-border: 4px solid #fff;
+border: 3px solid #263A29;
 font-size: 18px;
 font-family: "Georgia", serif;
 text-transform: uppercase;
 cursor: pointer;
 background-color: transparent; /* added background-color property with a value of transparent */
-color: #fff;
+color: #263A29;
 width: 200px;
 height: 50px;
 }
 
 .registration-form input[type="submit"]:hover {
 background-color: transparent;
-color: #fff;
+color:#263A29;
 }
 
 input[type="submit"]:hover {

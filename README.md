@@ -13,3 +13,7 @@
 
 - [E-commerce using front](https://www.youtube.com/watch?v=18Jvyp60Vbg)
 - [PHP Tutorials](https://www.w3schools.com/php/)
+
+### Screenshots
+
+<img src="Homepage.png" width="103"><img src="menu.png"  width="103">  <img src="Portofolio.png" width="100"> <img src="Rezervimi.png" width="100">
