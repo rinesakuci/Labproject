@@ -16,7 +16,7 @@
 
 - [E-commerce using front](https://www.youtube.com/watch?v=18Jvyp60Vbg)
 - [PHP Tutorials](https://www.w3schools.com/php/)
-- [Cruds](https://codeshack.io/crud-application-php-pdo-mysql/)
+- [CRUD Application with PHP, PDO, and MySQL](https://codeshack.io/crud-application-php-pdo-mysql/)
 
 ### Screenshots
 
