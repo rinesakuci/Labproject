@@ -118,7 +118,7 @@ $statement-> execute(array(':email'=>$email, ':password'=>$password, ':cell'=>$c
          right: 15px;
    padding: 10px 25px; border-radius: 3px; text-decoration: none; font-size: 9px;">Je Administrator ? Eja kycu</a><br>
  
- <a href="puntori_login.php" style="color: 263A29; border: 2px solid #263A29;
+ <a href="punetori_login.php" style="color: 263A29; border: 2px solid #263A29;
          position: fixed;
          bottom: 55px;
          right: 15px;
