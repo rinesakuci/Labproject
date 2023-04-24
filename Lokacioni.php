@@ -51,7 +51,8 @@
   position: absolute;
   top: 470px;
   left: 0;
-  width: 100%;
+  width: 105%;
+ 
   text-align: center;
   font-size: 18px;
   font-family: "Times New Roman", Georgia, Serif;
@@ -126,8 +127,8 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: #f2f2f2;
-        width: 1200px;
+     
+        width: 1300px;
       }
       .about-mrizi {
         background-color: #fafafa;
@@ -171,6 +172,10 @@
 
 <br><br>
 <body>
+
+
+
+
 
 
 <div class="container">

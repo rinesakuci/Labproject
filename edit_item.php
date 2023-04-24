@@ -139,7 +139,7 @@ h1 {
         <div class="w3-right w3-hide-small">
           <a href="index.php" class="w3-bar-item w3-button">Rreth Nesh</a>
           <a href="menu.php" class="w3-bar-item w3-button">Menu</a>
-          <a href="Portfolio.php" class="w3-bar-item w3-button">Portfolio</a>
+          <a href="portfolio.php" class="w3-bar-item w3-button">Portfolio</a>
           <a href="registeer.php" class="w3-bar-item w3-button">Rezervimet</a>
         </div>
       </div>
