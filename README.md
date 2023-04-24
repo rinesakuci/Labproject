@@ -2,6 +2,7 @@
 <img src="logo.png" alt="PHP logo" width="103"> <img src="js/js.png" alt="jS logo" width="110"> <img src="mysql.jpg" alt="mysql logo" width="100">
 
 ## Mrizi
+
 ### Ky është një sistem i bazuar në web për menaxhimin e operacioneve të restauranteve dhe rezervimet e klienteve.
 
  ## Environment:
