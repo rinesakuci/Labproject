@@ -52,7 +52,7 @@ h1 {
 	align-items: center;
 	margin: 20px;
 	padding: 20px;
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
 	border-radius: 5px;
 	transition: box-shadow 0.3s ease-in-out;
 }
