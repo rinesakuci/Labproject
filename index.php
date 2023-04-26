@@ -81,7 +81,7 @@ li {
   color: #fff;
   padding-top: 4px;
 
-  font-size: 14px;
+  font-size: 15px;
 
   text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ li {
 
 
 .meal {
-  font-size: 28px;
+  font-size: 29px;
   font-family: Consolas, monospace;
   padding-right: 70px;
   font-weight: bold;
