@@ -19,5 +19,6 @@
 - [CRUD Application with PHP, PDO, and MySQL](https://codeshack.io/crud-application-php-pdo-mysql/)
 
 ### Screenshots
+- Main ones :
 
 <img src="Homepage.png" width="375"><img src="menu.png"  width="375"> <br> <img src="Portfolio.png" width="375"> <img src="Rezervimi.png" width="375">
