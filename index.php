@@ -81,7 +81,7 @@ li {
   color: #fff;
   padding-top: 4px;
 
-  font-size: 14px;
+  font-size: 15px;
 
   text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ li {
 
 
 .meal {
-  font-size: 28px;
+  font-size: 29px;
   font-family: Consolas, monospace;
   padding-right: 70px;
   font-weight: bold;
@@ -195,7 +195,7 @@ li {
 </div>        
  
            <div class="me">
-           <img src="images/wed.jpg" alt="get" width="470" height="520" style="float: right; margin-right: 22px;">      
+           <img src="images/wed.jpg" alt="get" width="475" height="520" style="float: right; margin-right: 22px;">      
 </div>
 </div>
 <br><br>
