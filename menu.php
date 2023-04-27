@@ -109,7 +109,8 @@ h1 {
 <section>
 
 
-            <?php
+         
+<?php
                 $sql = "SELECT * FROM menu";
                 $result = $pdo->query($sql);
 
