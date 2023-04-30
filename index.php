@@ -160,15 +160,11 @@ li {
                 <h1 class="w3-center">Rreth Mrizit</h1><br>
                 <h5 class="w3-center">Tradition since 1889</h5>
                 <p class="w3-large" style="letter-spacing: 1px;">Pasioni për gatimet shqiptare si dhe ato intra-kulturore , ne na ka shtyrë të mbledhim qindra receta personale gjatë viteve 
-                    që do t'i ndaj në koleksionin tim të recetave. Ne besojme të bëjme gjithçka nga e para në kuzhinën tone, por sigurisht e kuptojme 
-                    që të tjerët preferojnë ushqimet e shpejta për shkak të kohës së kufizuar në ditët e tyre të ngarkuara. Ne do të përpiqemi dhe do 
-                    të ofrojme ide për kursimin e kohes sa herë që është e mundur në recetat e tona për ata që do të preferonin këtë ndihmë. Ne vazhdojme të 
-                    zhvillojme teknikat tona të kuzhinës çdo javë dhe do të ndajme me kënaqësi këshillat që mësojme, si dhe recetat që krijojme ndërsa 
-                    zhvillohet kjo faqe. <span class="w3-tag w3-light-grey">
+                    që do t'i ndaj në koleksionin tim të recetave. Ne vazhdojme të 
+                    zhvillojme teknikat tona të kuzhinës çdo javë dhe do të ndajme me kënaqësi këshillat që mësojme . Ne do të përpiqemi dhe do 
+                    të ofrojme ide për kursimin e kohes sa herë që është e mundur në recetat e tona për ata që do të preferonin këtë ndihmë. <span class="w3-tag w3-light-grey">
                       Perberes</span> sezonal !</p>
-                <p class="w3-large w3-text-grey w3-hide-medium" style="letter-spacing: 1px;">Thelbi i gatimit te sotshem është thjeshtësia. Njeriu përdor përbërësit
-                     më të freskët sezonalë të mundshëm dhe më pas përdor teknikat bazë të gatimit për të përmirësuar thjesht
-                      aromën natyrale të ushqimit.Pavarësisht nëse ndodhemi në SHBA apo Itali, ne ende përpiqemi të vazhdojme këtë traditë të vizitës 
+                <p class="w3-large w3-text-grey w3-hide-medium" style="letter-spacing: 1px;">Thelbi i gatimit te sotshem është thjeshtësia.Pavarësisht nëse ndodhemi në SHBA apo Itali, ne ende përpiqemi të vazhdojme këtë traditë të vizitës 
                       së zarzavateve tona lokale në kërkim të frymëzimit për darkën e asaj dite.</p>
             </div>
         </div>

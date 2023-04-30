@@ -38,7 +38,7 @@ header {
 	color: #fff;
 	padding: 60px;
 	text-align: center;
-    background-image: url("images/lux.jpeg");
+    background-image: url("images/mi.jpg");
 
 }
 
@@ -55,7 +55,6 @@ h1 {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	transition: box-shadow 0.3s ease-in-out;
-   
 }
 
 .menu:hover {
@@ -89,7 +88,7 @@ h1 {
             <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
                 <a href="index.php" class="w3-bar-item w3-button">Rreth Nesh</a>
-                <a href="menu.php" class="w3-bar-item w3-button">Menu</a>
+                <a href="prova.php" class="w3-bar-item w3-button">Menu</a>
                 <a href="portfolio.php" class="w3-bar-item w3-button">Portfolio</a>
                 <a href="registeer.php" class="w3-bar-item w3-button">Rezervimet</a>
                 <a href="lokacioni.php" class="w3-bar-item w3-button">Lokacioni</a>
@@ -109,8 +108,7 @@ h1 {
 <section>
 
 
-         
-<?php
+            <?php
                 $sql = "SELECT * FROM menu";
                 $result = $pdo->query($sql);
 
@@ -130,6 +128,8 @@ h1 {
 </section>
 
 <!-- <section>
+
+
     
     <!-- Add a new menu item form -->
     <!-- <div class="menu">
@@ -167,7 +167,9 @@ h1 {
   
     </div>
    
+
   </body>
+
 </html>
 </section> --> 
 
