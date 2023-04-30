@@ -3,7 +3,7 @@
 
 ## Mrizi
 
-### Ky është një sistem i bazuar në web për menaxhimin e operacioneve të restauranteve dhe rezervimet e klienteve.
+### This is a web-based system for managing restaurant operations and customer reservations.
 
  ## Environment:
 
@@ -12,7 +12,7 @@
 - Front-end: HTML , CSS, JavaScript
 - Back-end: PHP
 
-### Linqet perkatese
+### Links
 
 - [E-commerce using front](https://www.youtube.com/watch?v=18Jvyp60Vbg)
 - [PHP Tutorials](https://www.w3schools.com/php/)
