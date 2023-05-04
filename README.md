@@ -1,5 +1,5 @@
 # Labproject
-<img src="html5.png" alt="html logo" width="110"> <img src="css.png" alt="css logo" width="110"> <img src="js/js.png" alt="jS logo" width="120"> <img src="logo.png" alt="PHP logo" width="110">  <img src="mysql.jpg" alt="mysql logo" width="110">
+<img src="images/html5.png" alt="html logo" width="120"> <img src="images/css.png" alt="css logo" width="120"> <img src="js/js.png" alt="jS logo" width="130"> <img src="logo.png" alt="PHP logo" width="120">  <img src="mysql.jpg" alt="mysql logo" width="120">
 
 
 ## Mrizi
