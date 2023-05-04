@@ -1,5 +1,5 @@
 # Labproject
-<img src="images/html5.png" alt="html logo" width="120"> <img src="images/css.png" alt="css logo" width="170"> <img src="js/js.png" alt="jS logo" width="195"> <img src="logo.png" alt="PHP logo" width="150">  <img src="mysql.jpg" alt="mysql logo" width="120">
+<img src="images/html5.png" alt="html logo" width="120"> <img src="images/css.png" alt="css logo" width="170"> <img src="js/js.png" alt="jS logo" width="195"> <img src="images/logo.png" alt="PHP logo" width="150">  <img src="images/mysql.jpg" alt="mysql logo" width="120">
 
 
 ## Mrizi
@@ -22,4 +22,4 @@
 ### Screenshots
 - Main ones :
 
-<img src="Homepage.png" width="380"><img src="menu.png"  width="375"> <br> <img src="Portfolio.png" width="375"> <img src="Rezervimi.png" width="375">
+<img src="images/Homepage.png" width="380"><img src="images/menu.png"  width="375"> <br> <img src="images/Portfolio.png" width="375"> <img src="images/Rezervimi.png" width="375">
