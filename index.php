@@ -29,7 +29,7 @@
       }
       .w3-bar {
   height: 61px;
- width: 1295px;
+ width: 1380px;
 }
 .w3-bar-item {
     font-size: 15px;
