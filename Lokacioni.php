@@ -191,7 +191,7 @@
 
 <div style="display: flex; align-items: center;">
 <i class="fa fa-map-marker" style="font-size: 24px; color: #2c3e50; margin-right: 10px;"></i>
-  <p class="w3-text-blue-grey w3-large"><b>Bazhderhane, Josip Rela, 43043 , Prizren</b></p>
+  <p class="w3-text-blue-grey w3-large"><b>Bazhderhane, Josip Rela, 43042 , Prizren</b></p>
   </div>
 
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
